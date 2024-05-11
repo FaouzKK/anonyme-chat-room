@@ -1,0 +1,28 @@
+{
+  "name": "anonyme-chat-room",
+  "version": "beta",
+  "description": "Un serveur de discussion anonyme :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaouzKK/anonyme-chat-room.git"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "FaouzKK"
+  ],
+  "author": "FaouzKK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaouzKK/anonyme-chat-room/issues"
+  },
+  "homepage": "https://github.com/FaouzKK/anonyme-chat-room#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
