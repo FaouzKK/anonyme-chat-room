@@ -19,7 +19,7 @@ body {
      position: absolute;
      background-color: #ffffff;
      color: #27296d;
-     z-index: 98;
+     z-index: 200;
      
  }
 
@@ -79,7 +79,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     z-index: 1;
     padding-left: 250px;
     
