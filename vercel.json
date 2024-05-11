@@ -1,0 +1,13 @@
+{
+    "version" : "beta" ,
+    "name" : "anonyme-chat-room",
+    "builds" : [
+        {
+            "src" : "index.js",
+            "use" : "@vercel/node"
+        }
+    ],
+    "routes" : [
+        { "src" : "/(.*)", "dest" : "/index.js" }
+    ]
+}
