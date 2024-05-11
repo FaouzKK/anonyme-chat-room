@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "npm run test", "use": "@vercel/node" }
+    { "src": "index.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "npm run test" }
+    { "src": "/(.*)", "dest": "index.js" }
   ]
 }
