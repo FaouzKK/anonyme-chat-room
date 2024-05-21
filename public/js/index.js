@@ -2,7 +2,6 @@ const socket = io() ;
 import { GetFormMessage } from "./class/Message.js";
 import { SideAction } from "./class/SideAction.js";
 import { User } from "./class/User.js"; 
-//import { UserStatus } from "./class/User.js";
 
 
     
@@ -21,6 +20,8 @@ import { User } from "./class/User.js";
                 e.preventDefault() ;
 
                 try {
+
+                   // debugger
              
                     const message = new GetFormMessage(user,form) ;
                     
@@ -37,6 +38,11 @@ import { User } from "./class/User.js";
                     messageDiv.innerHTML = "<h3>You</h3><p>" + messageData.message + "</p>" ;
 
                     panel.appendChild(messageDiv) ;
+
+                    //console.log(panel.scrollHeight , messageDiv.scrollHeight) ;
+                    console.log(messageDiv) ;
+
+                   panel.scrollTop = panel.scrollHeight ;
 
                 } catch(error) {
 

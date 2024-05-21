@@ -11,7 +11,7 @@ export class User {
 
         let  username = sessionStorage.getItem("username") || null;
 
-        if (!username) {
+        while(!username || username.trim() == '') {
 
               username = prompt("Entrez un nom d'utilisateur pour votre anonymat") ;
               sessionStorage.setItem("username",username) ;
@@ -27,31 +27,3 @@ export class User {
      }
 
 }
-
-
-// export  class UserStatus {
-
-//      static ConnectedUser = 0 ;
-
-//     static newUser() {
-
-//          UserStatus.ConnectedUser += 1;
-//          UserStatus.updateOnlineUsers() ;
-//      }
-
-//    static  leftUser() {
-
-//          UserStatus.ConnectedUser -= 1;
-//          UserStatus.updateOnlineUsers() ;
-//      }
-
-
-//     static updateOnlineUsers() {
-         
-//             const span = document.querySelector("#online") ;
-
-//             span.innerText = UserStatus.ConnectedUser ; 
-//      }
-
-     
-// }
