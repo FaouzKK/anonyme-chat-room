@@ -33,25 +33,3 @@ export class GetFormMessage {
      }
 }
 
-
-export class Message {
-
-     /**
-      * 
-      * @param {User} user 
-      * @param {String} message 
-      */
-
-     #user ; 
-     #message ;
-      constructor (user , message) {
-
-            this.#user = user ;
-            this.#message = message ;
-      }
-
-    get username() {
-
-         return this.#user.username ;
-    }
-}

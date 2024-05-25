@@ -6,6 +6,9 @@ body {
     padding: 0;
 
 }
+
+ 
+  
  .header {
 
      display: flex;
@@ -121,6 +124,13 @@ body {
    
 }
 
+#message {
+
+    resize: none;
+    max-height: 100px;
+    height: 40px;       
+}
+
 .message-from-other {
 
    background-color: white;
@@ -176,6 +186,33 @@ body {
     padding: 0 10px ;
     margin: 0;
 }
+
+.message-from-me > img , .message-from-other > img {
+    
+    max-width: 100%;
+    padding: 10px;
+    max-height: 50vh;
+}
+
+
+.channel-info {
+
+    /* text-align: center; */
+    /* background-color: #c0c0c0; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.channel-info > span {
+
+    background-color: #c8c8c8;
+    border-radius: 10px;
+    padding: 0 10px;
+}
  
 
 .hide {
@@ -185,7 +222,62 @@ body {
     transform: translateX(-250px); 
 }
 
+.link-menu {
+
+    position: absolute;
+    min-height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    min-width: 150px;
+    bottom: 50px;
+    /* left : 20px ; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    align-items: center;
+     padding: 0 10px;
+}
+
+.hide-menu {
+
+    display: none !important;
+}
+
+.error-message {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.error-message > #text {
+
+    background-color: rgb(197, 98, 98);
+    color: rgb(73, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 50%;
+    text-align: center;
+    z-index: 100;
+}
+
+
+
 @media screen and (max-width: 600px) {
+
+    .sidebar {
+
+        left: -250px; 
+
+    }
+
+    .hide {
+
+        /* left : -250px ; */
+        transition: transform 0.5s ease;
+        transform: translateX(+250px); 
+    }
     
     .message-side {
 

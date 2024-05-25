@@ -32,9 +32,7 @@ export class SideAction {
       }
 
     get #isHide() {
-
-         
-
+        
          if (Array.from(SideAction.sidebarDiv.classList).includes("hide")) return true ;
 
          return false ;
