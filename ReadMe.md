@@ -10,7 +10,7 @@ La page de l'Anonyme Chat Room est conçue pour offrir un espace de discussion a
 
 
 ## Comment Utiliser
-1. **Accéder à la page :** Ouvrez la page de la Anonyme Chat Room dans votre navigateur web : [Cliquez ici](https://anonyme-chat-room.onrender.com/).
+1. **Accéder à la page :** Ouvrez la page de la Anonyme Chat Room dans votre navigateur web : [Cliquez ici](https://anonyme-chat-room-4rzj.onrender.com).
 2. **Choisir un pseudo :** Entrez un pseudonyme de votre choix dans le champ de saisie.
 3. **Commencer à discuter :** Vous pouvez maintenant envoyer des messages dans la salle de discussion et participer aux conversations.
 
