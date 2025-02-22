@@ -20,6 +20,10 @@
             "dest": "index.js"
         },
         {
+          "src": "/socket.io/(.+)",
+          "dest" : "index.js"
+        },
+        {
             "src": "/(.+)",
             "dest": "public/$1"
         }
