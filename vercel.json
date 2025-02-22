@@ -17,7 +17,7 @@
         },
         {
             "src": "/",
-            "dest": "index.html"
+            "dest": "index.js"
         },
         {
             "src": "/(.+)",
